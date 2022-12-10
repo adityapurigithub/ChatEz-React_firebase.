@@ -1,0 +1,26 @@
+.Channel {
+  background-color: blanchedalmond;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Channel ul {
+  margin: auto;
+  list-style: none;
+  padding: 20px 40px;
+  display: grid;
+  gap: 10px;
+  place-items: center;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+}
+.Channel ul li {
+  margin: 10px;
+}
+.Channel form {
+  padding: 10px;
+  margin: 10px;
+}
+.Channel form input {
+  padding: 10px;
+}
